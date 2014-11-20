@@ -7868,14 +7868,14 @@ code, pre {
 #footer .footer-block {
   display: inline-block;
 }
+
 #footer .footer-block a {
   margin-left: 25px;
   vertical-align: bottom;
 }
 
 #gus1 {
-  width: auto;
-  height: auto;
+  top: 40%;
   margin: 0 auto;
   padding: 10px;
   position: relative;
@@ -7886,6 +7886,20 @@ code, pre {
     display: block;
     margin-bottom: 20px;
   }
+}
+
+#searchButton {
+  float: right;
+  width: 20%;
+  overflow: hidden;
+  padding-top: 8px;
+}
+
+#searchField {
+  float: left;
+  width: 80%;
+  overflow: hidden;
+  padding-right: 15px;
 }
 
 /*# sourceMappingURL=ghpages-materialize.css.map */

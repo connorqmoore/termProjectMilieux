@@ -2527,7 +2527,7 @@ ul {
 }
 
 a {
-  color: #ba68c8;
+  color: #1E88E5;
   text-decoration: none;
 }
 
@@ -6395,7 +6395,9 @@ small {
   position: relative;
   overflow: hidden;
   padding: 1rem;
+  background-color:#CE93D8;
 }
+
 .card .card-content img {
   -webkit-border-radius: 2px 2px 0 0;
   -moz-border-radius: 2px 2px 0 0;
@@ -6406,8 +6408,8 @@ small {
   right: 0;
   top: 0;
   bottom: 0;
-  width: 100%;
-  z-index: -1;
+  height: 100%;
+  z-index: 0;
 }
 .card .card-footer {
   background-color: #FFF;
@@ -6970,7 +6972,7 @@ ul.tabs li.tab {
 .btn, .btn-large {
   text-decoration: none;
   color: #FFFFFF;
-  background-color: #b96bc6;
+  background-color: #2196F3;
   text-align: center;
   letter-spacing: .8px;
   -webkit-transition: 0.2s ease-out;
@@ -6980,7 +6982,7 @@ ul.tabs li.tab {
   transition: 0.2s ease-out;
 }
 .btn:hover, .btn-large:hover {
-  background-color: #cd95d6;
+  background-color: #39a1f4;
 }
 
 .btn-floating {
@@ -7279,10 +7281,10 @@ input[type=text] {
 }
 
 input[type=text]:focus {
-  border-bottom: 1px solid #9c27b0;
-  -webkit-box-shadow: 0 1px 0 0 #9c27b0;
-  -moz-box-shadow: 0 1px 0 0 #9c27b0;
-  box-shadow: 0 1px 0 0 #9c27b0;
+  border-bottom: 1px solid #03a9f4;
+  -webkit-box-shadow: 0 1px 0 0 #03a9f4;
+  -moz-box-shadow: 0 1px 0 0 #03a9f4;
+  box-shadow: 0 1px 0 0 #03a9f4;
 }
 
 /***************
@@ -7612,7 +7614,7 @@ p {
 }
 
 .header {
-  color: #69015b;
+  color: #ee6e73;
   font-weight: 300;
 }
 

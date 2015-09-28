@@ -2527,7 +2527,7 @@ ul {
 }
 
 a {
-  color: #1E88E5;
+  color: #b96bc6;
   text-decoration: none;
 }
 
@@ -6404,7 +6404,7 @@ small {
   border-radius: 2px 2px 0 0;
   background-clip: padding-box;
   position: absolute;
-  left: 0;
+  left: 46%;
   right: 0;
   top: 0;
   bottom: 0;
@@ -6537,7 +6537,7 @@ ul.tabs li.tab a {
   transition: color 0.28s ease;
 }
 ul.tabs li.tab a:hover {
-  color: #f8c1c3;
+  color: #cd95d6;
 }
 ul.tabs .indicator {
   position: absolute;
@@ -6972,7 +6972,7 @@ ul.tabs li.tab {
 .btn, .btn-large {
   text-decoration: none;
   color: #FFFFFF;
-  background-color: #2196F3;
+  background-color: #b96bc6;
   text-align: center;
   letter-spacing: .8px;
   -webkit-transition: 0.2s ease-out;
@@ -6982,7 +6982,7 @@ ul.tabs li.tab {
   transition: 0.2s ease-out;
 }
 .btn:hover, .btn-large:hover {
-  background-color: #39a1f4;
+  background-color: #cd95d6;
 }
 
 .btn-floating {
@@ -7281,10 +7281,10 @@ input[type=text] {
 }
 
 input[type=text]:focus {
-  border-bottom: 1px solid #03a9f4;
-  -webkit-box-shadow: 0 1px 0 0 #03a9f4;
-  -moz-box-shadow: 0 1px 0 0 #03a9f4;
-  box-shadow: 0 1px 0 0 #03a9f4;
+  border-bottom: 1px solid #ab47bc;
+  -webkit-box-shadow: 0 1px 0 0 #ab47bc;
+  -moz-box-shadow: 0 1px 0 0 #ab47bc;
+  box-shadow: 0 1px 0 0 #ab47bc;
 }
 
 /***************
@@ -7522,12 +7522,12 @@ ul.table-of-contents a {
 ul.table-of-contents a:hover {
   color: #a8a8a8;
   padding-left: 19px;
-  border-left: 1px solid #ea4a4f;
+  border-left: 1px solid #68045a;
 }
 ul.table-of-contents a.active {
   font-weight: 600;
   padding-left: 18px;
-  border-left: 2px solid #ea4a4f;
+  border-left: 2px solid #68045a;
 }
 
 @media only screen and (max-width: 992px) {
@@ -7614,7 +7614,7 @@ p {
 }
 
 .header {
-  color: #ee6e73;
+  color: #68045a;
   font-weight: 300;
 }
 
@@ -7727,7 +7727,7 @@ p {
   margin-bottom: 1.5rem;
 }
 .promo i {
-  color: #ee6e73;
+  color: #b86ec4;
   font-size: 7rem;
   display: block;
 }
@@ -7887,6 +7887,12 @@ code, pre {
   .footer-block {
     display: block;
     margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  a#logo-container img {
+    float: right;
   }
 }
 
